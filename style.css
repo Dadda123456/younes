@@ -9,3 +9,12 @@ a:hover{
 a:visited{
     color :rgb(104, 18, 184)
 }
+
+h1{
+    background-color: white;
+    text-align: center;
+}
+
+h2{
+    text-decoration: overline;
+}
