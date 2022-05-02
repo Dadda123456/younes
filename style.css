@@ -28,3 +28,10 @@ h2{
     top: 50px;
     right: 30px;
 }
+
+#github{
+    width: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50%;
+}
