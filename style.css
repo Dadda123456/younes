@@ -1,4 +1,11 @@
-body
-{
+body{
     background-color: rgb(243, 199, 76);
+}
+
+a:hover{
+    color :rgb(37, 155, 155)
+}
+
+a:visited{
+    color :rgb(104, 18, 184)
 }
