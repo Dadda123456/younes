@@ -12,9 +12,19 @@ a:visited{
 
 h1{
     background-color: white;
-    text-align: center;
+    border : 1px black solid;
+    position: relative;
+    left: 42%;
+    width: 330px;
 }
 
 h2{
     text-decoration: overline;
+}
+
+#compagnon{
+    position: fixed;
+    width: 150px;
+    top: 50px;
+    right: 30px;
 }
