@@ -1,18 +1,25 @@
-body{
-    background-color: rgb(243, 199, 76);
+html{
+    text-align: center;
 }
 
 a:hover{
     color :rgb(37, 155, 155)
 }
 
-a:visited{
-    color :rgb(104, 18, 184)
+i:hover{
+    color :rgb(37, 155, 155)
+}
+
+a:visited {
+    color :rgb(0, 0, 0)
 }
 
 h1{
     background-color: white;
-    border : 1px black solid;
+    border-left : 1px black solid;
+    border-right : 1px black solid;
+    border-top : 1px black dashed;
+    border-bottom : 1px black dashed;
     position: relative;
     left: 42%;
     width: 330px;
@@ -29,16 +36,17 @@ h2{
     right: 30px;
 }
 
-#github{
-    width: 50px;
-    position: fixed;
-    bottom: 50px;
-    right: 50%;
+body {
+	background: #EDEDED;
+	color: #AF3D4E;
 }
 
-#Linkedin{
-    width: 50px;
-    position: fixed;
-    bottom: 50px;
-    right: 47%;
+.icons-social a {
+	color: #AF3D4E;
+}
+
+.icons-social i {
+	padding: 10px;
+    font-size: 3em;
+    text-align: center;
 }
