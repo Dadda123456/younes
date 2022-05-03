@@ -1,3 +1,5 @@
+/*Computer*/
+@media all and (min-device-width : 769px){
 html{
     text-align: center;
 }
@@ -16,10 +18,7 @@ a:visited {
 
 h1{
     background-color: white;
-    border-left : 1px black solid;
-    border-right : 1px black solid;
-    border-top : 1px black dashed;
-    border-bottom : 1px black dashed;
+    border-radius: 10px 100px / 120px;
     position: relative;
     left: 42%;
     width: 330px;
@@ -49,4 +48,59 @@ body {
 	padding: 10px;
     font-size: 3em;
     text-align: center;
+}
+/*Mot pour Taille*/
+#large{
+    position :absolute;
+    left : 10px;
+    font-size: 12px;
+    border-top : 1px black solid;
+    border-bottom : 1px black solid;
+}
+
+#medium{
+    display:none;
+}
+#small{
+    display:none;
+}
+}
+/*Smartphone*/
+@media all and (max-device-width : 300px){
+    body {
+        color : red;
+    }
+    #medium{
+        display:none;
+    }
+    #large{
+        display:none;
+    }
+    #small{
+        position :absolute;
+        left : 10px;
+        font-size: 12px;
+        border-top : 1px black solid;
+        border-bottom : 1px black solid;
+    }
+}
+/*Tablette*/
+@media all and (min-device-width : 301px) and (max-device-width : 768px){
+    body{
+        color : green;
+    }
+    #small{
+        display:none;
+    }
+    #large{
+        display:none;
+    }
+
+    #medium{
+        position :absolute;
+        left : 10px;
+        font-size: 12px;
+        border-top : 1px black solid;
+        border-bottom : 1px black solid;
+    }
 }
