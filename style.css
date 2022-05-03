@@ -67,9 +67,18 @@ body {
 }
 /*Smartphone*/
 @media all and (max-width : 300px){
+    html{
+        text-align: center;
+    }
     body {
         color : red;
         font-size: 15px;
+    }
+    #compagnon{
+        position: fixed;
+        width: 150px;
+        top: 50px;
+        right: 30px;
     }
     #medium{
         display:none;
@@ -87,9 +96,18 @@ body {
 }
 /*Tablette*/
 @media all and (min-width : 301px) and (max-width : 768px){
+    html{
+        text-align: center;
+    }
     body{
         color : green;
         font-size: 15px;
+    }
+    #compagnon{
+        position: fixed;
+        width: 150px;
+        top: 50px;
+        right: 30px;
     }
     #small{
         display:none;
