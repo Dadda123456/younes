@@ -69,6 +69,7 @@ body {
 @media all and (max-width : 300px){
     body {
         color : red;
+        font-size: 15px;
     }
     #medium{
         display:none;
@@ -88,6 +89,7 @@ body {
 @media all and (min-width : 301px) and (max-width : 768px){
     body{
         color : green;
+        font-size: 15px;
     }
     #small{
         display:none;
